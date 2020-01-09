@@ -30,6 +30,10 @@ def using_concat(array)
   
 end
 
+def using_insert(array, element)
+  array[4].insert(element)
+end
+
 ### `using_insert`
 
 This method takes in two arguments, an `Array` and a new element to be added to
